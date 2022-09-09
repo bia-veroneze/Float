@@ -1,0 +1,101 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-image: url(../img/livraria.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+main{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 10px black;
+}
+
+header{
+    background-color:#f2f2f2;
+    color: rgb(135, 21, 21);
+    text-align: center;
+    padding: 2px;
+}
+
+nav{
+    background-color:#bd3038 ;
+    width: 140px;
+    height: 1000px;
+    box-sizing: border-box;
+    line-height: 60px;
+    padding: 8px;
+    float: left;
+}
+
+section{
+    background-color: #ce7095;
+    width: 660px;
+    height: 1000px;
+    box-sizing: border-box;
+    padding: 15px;
+    float: right;
+}
+
+footer{
+    background-color:#855e6e ;
+    color: black;
+    text-align: center;
+    clear: both;
+}
+
+li{
+    list-style: none;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+}
+
+#img{
+    text-align: center;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(208, 135, 222);
+    height: 100%;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    width: 100%;
+    display: inline-block;
+    padding: 6px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: background .8s;
+}
+
+#menu ul li a:hover {
+    background-color: rgba(132, 2, 2, 0.709);
+}
+
+.caixa{
+    border-width: 8px;
+    border-color: #cc2649 ;
+    border-style: outset ;
+    padding: 20px;
+    margin: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
